@@ -1,0 +1,160 @@
+{
+ "budgets": {
+  "autoclave-01": 5.0,
+  "autoclave-02": 5.0,
+  "autoclave-03": 5.0,
+  "autoclave-04": 5.0,
+  "autoclave-05": 5.0,
+  "autoclave-06": 5.0
+ },
+ "generator_schema": 1,
+ "instances": {
+  "autoclave-01": {
+   "baseline_costs": [
+    7043,
+    7043,
+    7043,
+    7043
+   ],
+   "digest": "84febd132f9016fb",
+   "family": "standard",
+   "probe_score": 0.7133,
+   "reference_cost": 6246,
+   "shifted": false,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    11099,
+    11099,
+    11099,
+    11099
+   ]
+  },
+  "autoclave-02": {
+   "baseline_costs": [
+    11474,
+    11474,
+    11474,
+    11474
+   ],
+   "digest": "d0d63945a629c827",
+   "family": "standard",
+   "probe_score": 0.7554,
+   "reference_cost": 10587,
+   "shifted": false,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    21182,
+    21182,
+    21182,
+    21182
+   ]
+  },
+  "autoclave-03": {
+   "baseline_costs": [
+    13018,
+    13018,
+    13018,
+    13018
+   ],
+   "digest": "9522039efe3eb917",
+   "family": "standard",
+   "probe_score": 0.7621,
+   "reference_cost": 11921,
+   "shifted": false,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    21967,
+    21967,
+    21967,
+    21967
+   ]
+  },
+  "autoclave-04": {
+   "baseline_costs": [
+    17937,
+    17937,
+    17937,
+    17937
+   ],
+   "digest": "9200ac3cf73ab71c",
+   "family": "standard",
+   "probe_score": 0.7526,
+   "reference_cost": 15806,
+   "shifted": false,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    26266,
+    26266,
+    26266,
+    26266
+   ]
+  },
+  "autoclave-05": {
+   "baseline_costs": [
+    12388,
+    12388,
+    12388,
+    12388
+   ],
+   "digest": "5d3bfc97533735ac",
+   "family": "tight-heavy",
+   "probe_score": 0.7141,
+   "reference_cost": 11008,
+   "shifted": true,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    19265,
+    19265,
+    19265,
+    19265
+   ]
+  },
+  "autoclave-06": {
+   "baseline_costs": [
+    22951,
+    22951,
+    22951,
+    22951
+   ],
+   "digest": "fd165bac509dfd83",
+   "family": "tight-heavy",
+   "probe_score": 0.7703,
+   "reference_cost": 20010,
+   "shifted": true,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    49041,
+    49041,
+    49041,
+    49041
+   ]
+  }
+ },
+ "reference_scale": 10,
+ "repeats": 3,
+ "schema": 1
+}
